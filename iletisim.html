@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İletişim</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="index.html">Patiselika</a>
+                </div>
+                <ul>
+                    <li><a href="index.html">Anasayfa</a></li>
+                    <li><a href="Ürünler.html">Ürünler</a></li>
+                    <li><a href="hakkimizda.html">Hakkımızda</a></li>
+                    <li><a href="hizmetler.html">Hizmetler</a></li>
+                    <li><a href="ekibimiz.html">Ekibimiz</a></li>
+                    <li><a href="iletisim.html" class="active">İletişim</a></li>
+                </ul>
+            </div>
+            <section id="iletisim" class="contact-section">
+                <div class="contact-container">
+                    <h2>İletişim</h2>
+                    <form class="contact-form">
+                        <label for="isim">İsim Soyisim:</label>
+                        <input type="text" id="isim" name="isim" required>
+
+                        <label for="telefon">Telefon Numarası:</label>
+                        <input type="tel" id="telefon" name="telefon" required>
+
+                        <label for="email">E-mail:</label>
+                        <input type="email" id="email" name="email" required>
+
+                        <label for="bagis">Bağış Miktarı (₺):</label>
+                        <input type="number" id="bagis" name="bagis" min="1" required>
+
+                        <button type="submit">Gönder</button>
+                    </form>
+                </div>
+            </section>
+        </div>
+    </main>
+</body>
+
+<footer>
+    <div class="footer-container">
+        <p>📧 info@patiselika.com</p>
+        <p>📍 İstanbul, Türkiye</p>
+        <p>🐾 Takip Et:
+            <a href="#">Instagram</a> ·
+            <a href="#">Twitter</a> ·
+            <a href="#">Facebook</a>
+        </p>
+        <p class="copyright">© 2025 Patiselika. Tüm hakları saklıdır.</p>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+
+</html>
